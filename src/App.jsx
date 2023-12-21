@@ -8,7 +8,6 @@ import EditUserPage from "./pages/Users/EditUserPage";
 
 function App() {
   const isAuthenticated = () => {
-    // Ganti dengan logika autentikasi Anda
     return localStorage.getItem("token") !== null;
   };
   return (
